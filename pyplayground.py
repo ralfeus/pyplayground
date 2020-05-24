@@ -27,6 +27,9 @@ class Game(object):
     __instance = None
     
     should_stop = False
+    '''
+    When set to True all thread are stopped
+    '''
     
     def __new__(cls):
         if Game.__instance is None:
