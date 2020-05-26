@@ -1,5 +1,8 @@
 # pyplayground
-Module to create simple games using pygame. Aimed for kids who want learning Python in a fun way
+Module to create simple games using pygame. Aimed for kids who want learning Python in a fun way. 
+
+The goal is to have something similar to Scratch Jr. - simple set of blocks to play with but with shift to coding instead of building with a mouse to get a taste of coding and possibility to use Python capabilities anytime you want.
+
 # Usage
 ```
 import pyplayground
