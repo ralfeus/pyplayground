@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyplayground-ralfeus
+Version: 0.0.7
+Summary: Module to create simple games using pygame
+Home-page: https://github.com/ralfeus/pyplayground
+Author: Mychajlo Chodorev
+Author-email: ralfeus@gmail.com
+License: UNKNOWN
+Description: # pyplayground
+        Module to create simple games using pygame. Aimed for kids who want learning Python in a fun way
+        # Usage
+        ```
+        import pyplayground
+        class Actor1(pyplayground.Actor):
+          # here you override pyplayground.Actor methods you want to use
+        pyplayground.Game().init((width, height)).run(Actor1())
+        ```
+        **width** and **height** are size of game window.
+        
+        **run** method arguments  are the list of instances of the Actor descendants instances. 
+        
+        ## Any comments, proposals, requests are welcome
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
